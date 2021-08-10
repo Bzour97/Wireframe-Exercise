@@ -30,6 +30,7 @@ nav img
     float: left;
     margin-top: 15px;
     margin-right: 30px;
+    color: #000;
 }
 
 nav li a 
@@ -62,50 +63,64 @@ nav li a
 {
     width: 1012px;
     margin: 0 auto;
+    margin-bottom: 20px;
 }
 
-/* div.section {
-    float: left;
-    margin-top: 25px;
-    margin-bottom: 25px;
-}
-
-div.section>img {
+#three > img
+{
     float: left;
     margin-right: 25px;
+    margin-bottom: 20px;
 }
 
-div.scroll {
-    height: 300px;
+div.scroll 
+{
+    height: 315px;
     overflow: auto;
-    margin-bottom: 17px;
+    /*margin-bottom: 17px;*/
+    width: 455px;
+    padding-bottom: 5px;
 }
 
-div.section h1 {
+#three > h1 
+{
     font-size: 24px;
     margin-bottom: 15px;
+    font-style: initial;
 }
 
-div.section p {
-    padding-bottom: 15px;
+#three > p 
+{
+   /* padding-bottom: 15px; */
+
 }
 
-div.section button {
+main
+{
+    width: 1040px;
+    margin: 0 auto;
+}
+
+button 
+{
     border: none;
     background: #000;
     padding: 8px 30px;
     color: #FFF;
     font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
-div.section button:hover {
-    background: blue;
+button:hover 
+{
+    background: rgb(255, 0, 0);
     transition-delay: 350ms;
-} */
+}
 
 footer {
     clear: both;
     height: 100px;
     background: rgb(77, 77, 77);
-    /* z-index: 0; */
+    margin-top: 20px;
 }
